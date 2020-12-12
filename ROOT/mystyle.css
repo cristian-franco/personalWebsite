@@ -1,0 +1,93 @@
+html, body {
+  margin:0;
+  padding:0;
+  background-color: #EAD595;
+  color: red;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.Header {
+  background-color: #45B6FE;
+  color: black;
+  text-align: center;
+  padding: 10px 60px 0px 60px;
+  outline-style: solid;
+  outline-color: #45B6FE;
+  outline-width: 25px;
+}
+
+.bio {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 300px;
+  margin-right:300px;
+}
+
+.blackSection {
+  background-color: black;
+  color: #EAD595;
+  list-style-position: inside;
+  outline-style: solid;
+  outline-color: black;
+  outline-width: 20px;
+}
+
+.tanSection {
+  background-color: #EAD595;
+  color: black;
+  list-style-position: inside;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.tempGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+
+li {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+
+}
+
+h4 {
+  font-size: 22px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
