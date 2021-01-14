@@ -10,7 +10,8 @@ html, body {
   background-color: #45B6FE;
   color: black;
   text-align: center;
-  padding: 10px 60px 0px 60px;
+  /*padding: 10px 60px 0px 60px;*/
+  padding: 60px 60px 0px 60px;
   outline-style: solid;
   outline-color: #45B6FE;
   outline-width: 25px;
@@ -66,7 +67,7 @@ html, body {
 
 .navBar li {
   float: left;
-  border-right: 1px solid #bbb;
+  border-right: 1px solid #EAD595; // #bbb
 }
 
 .navBar a {
@@ -80,19 +81,19 @@ html, body {
 
 .navBar li a {
   display: block;
-  color: white;
+  color: #EAD595;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .navBar li a:hover {
-  background-color: purple;
+  background-color: #45B6FE;
 }
 
 .active {
-  background-color: #45B6FE;
+  background-color: #EAD595;
+  color: black;
 }
 
 a {
