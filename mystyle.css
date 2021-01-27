@@ -1,110 +1,10 @@
 html, body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   /*background-color: #EAD595;*/
   background-color: purple;
   color: red;
   font-family: Helvetica, Arial, sans-serif;
-}
-
-.Header {
-  background-color: #45B6FE;
-  color: black;
-  text-align: center;
-  /*padding: 10px 60px 0px 60px;*/
-  padding: 60px 60px 0px 60px;
-  outline-style: solid;
-  outline-color: #45B6FE;
-  outline-width: 25px;
-  -webkit-background-clip: content-box;
-  background-clip: content-box;
-}
-
-.bio {
-  text-align: center;
-  font-size: 20px;
-  margin-left: 300px;
-  margin-right:300px;
-}
-
-.blackSection {
-  margin-top: -50px;
-  background-color: black;
-  color: #EAD595;
-  list-style-position: inside;
-  outline-style: solid;
-  outline-color: black;
-  outline-width: 20px;
-  -webkit-background-clip: content-box;
-  background-clip: content-box;
-  padding: 50px 0px 80px 0px;
-}
-
-.tanSection {
-  margin-top: -50px;
-  background-color: #EAD595;
-  color: black;
-  list-style-position: inside;
-  -webkit-background-clip: content-box;
-  background-clip: content-box;
-  padding: 50px 0px 80px 0px;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  padding: 10px;
-  margin-left: 150px;
-  margin-right: 150px;
-}
-
-.tempGrid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-left: 300px;
-  margin-right: 300px;
-}
-
-.navBar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navBar li {
-  float: left;
-  border-right: 1px solid #EAD595; // #bbb
-}
-
-.navBar a {
-  display: block;
-  padding: 8px;
-}
-
-.navBar li:last-child {
-  border-right: none;
-}
-
-.navBar li a {
-  display: block;
-  color: #EAD595;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navBar li a:hover {
-  background-color: #45B6FE;
-}
-
-.active {
-  background-color: #EAD595;
-  color: black;
 }
 
 a {
@@ -143,4 +43,97 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/* https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header/11842865#11842865    */
+h2{ position:relative; }
+h2 span{ position:absolute; top:-57px;}
+
+.Header {
+  background-color: #45B6FE;
+  color: black;
+  text-align: center;
+  padding: 0px 60px 0px 60px;
+  margin-top: 57px;
+  border: 5px solid red;
+}
+
+.bio {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 300px;
+  margin-right:300px;
+}
+
+.blackSection {
+  background-color: black;
+  color: #EAD595;
+  list-style-position: inside;
+  /*border: 5px solid red;*/
+}
+
+.tanSection {
+  background-color: #EAD595;
+  color: black;
+  list-style-position: inside;
+/*  border: 5px solid red;*/
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.tempGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+/* || navBar styles */
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navBar li {
+  float: left;
+  border-right: 1px solid #EAD595;
+}
+
+.navBar a {
+  display: block;
+  padding: 8px;
+}
+
+.navBar li:last-child {
+  border-right: none;
+}
+
+.navBar li a {
+  display: block;
+  color: #EAD595;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar li a:hover {
+  /*background-color: #45B6FE;*/
+  text-decoration: underline overline #45B6FE;
+}
+
+.active {
+  background-color: #45B6FE; /*#EAD595*/;
+  color: black;
 }
