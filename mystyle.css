@@ -53,9 +53,9 @@ h2 span{ position:absolute; top:-57px;}
   background-color: #45B6FE;
   color: black;
   text-align: center;
-  padding: 0px 60px 0px 60px;
+  padding: 25px 60px 25px 60px;
   margin-top: 57px;
-  border: 5px solid red;
+/*  border: 5px solid red;*/
 }
 
 .bio {
@@ -70,6 +70,9 @@ h2 span{ position:absolute; top:-57px;}
   color: #EAD595;
   list-style-position: inside;
   /*border: 5px solid red;*/
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
 }
 
 .tanSection {
@@ -77,6 +80,9 @@ h2 span{ position:absolute; top:-57px;}
   color: black;
   list-style-position: inside;
 /*  border: 5px solid red;*/
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
 }
 
 .grid-container {
