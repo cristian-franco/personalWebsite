@@ -21,12 +21,14 @@ li {
 h1 {
   font-size: 50px;
   position: relative;
+  z-index: 0;
 }
 
 h2 {
   font-size: 35px;
   text-align: center;
   position: relative;
+  z-index: 0;
 }
 
 h3 {
@@ -50,7 +52,7 @@ img {
 /* https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header/11842865#11842865    */
 /*h2{ position:relative; }*/
 h1 span {
-  position:absolute;
+  position: absolute;
   top:-57px;
 }
 
@@ -83,6 +85,7 @@ h2 span {
   vertical-align: top;
   display: inline-block;
   width: 100%;
+  scroll-behavior: 
 }
 
 .tanSection {
@@ -122,6 +125,7 @@ h2 span {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .navBar li {
