@@ -20,11 +20,13 @@ li {
 
 h1 {
   font-size: 50px;
+  position: relative;
 }
 
 h2 {
   font-size: 35px;
   text-align: center;
+  position: relative;
 }
 
 h3 {
@@ -46,8 +48,16 @@ img {
 }
 
 /* https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header/11842865#11842865    */
-h2{ position:relative; }
-h2 span{ position:absolute; top:-57px;}
+/*h2{ position:relative; }*/
+h1 span {
+  position:absolute;
+  top:-57px;
+}
+
+h2 span {
+  position: absolute;
+  top: -57px;
+}
 
 .Header {
   background-color: #45B6FE;
@@ -98,6 +108,8 @@ h2 span{ position:absolute; top:-57px;}
   grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-left: 300px;
   margin-right: 300px;
+  /*margin-bottom: 100px;*/
+  text-align: center;
 }
 
 /* || navBar styles */
@@ -135,7 +147,6 @@ h2 span{ position:absolute; top:-57px;}
 }
 
 .navBar li a:hover {
-  /*background-color: #45B6FE;*/
   text-decoration: underline overline #45B6FE;
 }
 
