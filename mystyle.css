@@ -125,7 +125,7 @@ h2 span {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 1; /*https://forum.freecodecamp.org/t/text-is-seen-through-fixed-navbar-when-its-position-is-relative/256179*/
 }
 
 .navBar li {
