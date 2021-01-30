@@ -2,10 +2,15 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="mystyle.css">
+		 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
 		<title>Cristian Franco</title>
 	</head>
 	
 	<body>
+
+		
 		<div class="navBar">
 			<ul>
 			  <li><a class="active" href="#home">Home</a></li>
@@ -149,21 +154,39 @@
 
 	--><div class="tanSection">
 			<h2><span id="contact"></span>CONTACT</h2>
-			<div class="tempGrid">
-				<div class="tempGridItem">
-					<a href="https://www.linkedin.com/in/c-franco/">LinkedIn</a> 
+			<div class="grid-container">
+				<div class="grid-item">
+					<div id="mapid"></div>
+				</div>
+				<div class="grid-item">
+					<div class="tempGrid">
+						<div class="tempGridItem">
+							<a href="https://www.linkedin.com/in/c-franco/">LinkedIn</a> 
+						</div>
+
+						<div class="tempGridItem">
+							<a href="img/cristianFrancoResume.pdf">Resume</a>
+						</div>
+
+						<div class="tempGridItem">
+							<a href="mailto:cristianfranco.cf@gmail.com">Email</a>
+						</div>
+
+						<div class="tempGridItem">
+							<a href="https://www.github.com/cristian-franco/">GitHub</a>
+						</div>
+
+					</div>
+
 				</div>
 
-				<div class="tempGridItem">
-					<a href="img/cristianFrancoResume.pdf">Resume</a>
-				</div>
-
-				<div class="tempGridItem">
-					<a href="mailto:cristianfranco.cf@gmail.com">Email</a>
-				</div>		
 			</div>
 
 		</div>
 
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+		<script src="myscript.js"></script>
 	</body>
 </html>
