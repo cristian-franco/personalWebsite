@@ -19,7 +19,6 @@ a {
   font-size: 25px;
   text-decoration: none;
   color: black;
-  font-size: 25px;
 }
 
 li {
@@ -52,9 +51,6 @@ h4 {
 
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
 /* https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header/11842865#11842865    */
@@ -98,6 +94,7 @@ h2 span {
   vertical-align: top;
   display: inline-block;
   width: 100%;
+  /*height: 100vh;*/
 }
 
 .tanSection {
@@ -107,6 +104,7 @@ h2 span {
   vertical-align: top;
   display: inline-block;
   width: 100%;
+  /*height: 100vh;*/
 }
 
 .grid-container {
@@ -117,14 +115,32 @@ h2 span {
   margin-right: 150px;
 }
 
-.tempGrid {
+.contactGrid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  text-align: center;
+  padding: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 100px;
 }
 
-.tempGridItem {
-  margin-bottom: 30px;
+.contactGridItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linksGrid {
+  display: grid;
+  /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  text-align: center;
+  grid-gap: 60px 60px;
+}
+
+.wholeRowItem {
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 /* || navBar styles */
@@ -174,6 +190,35 @@ h2 span {
 #mapid {
   height: 300px;
   width: 100%;
-  margin-bottom: 100px;
   text-align: center;
+}
+
+#headshot {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+#githubLink {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#linkedinLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;  
+}
+
+#emailText {
+  font-size: 25px;
+}
+
+#resumeLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -28,7 +28,7 @@
 
 	--><div class="blackSection">
 			<h2>BIO</h2>
-			<img src="img/cristianFranco.jpg" alt="Cristian Franco" style="width:300px;height:400;">
+			<img id="headshot" src="img/cristianFranco.jpg" alt="Cristian Franco">
 			<p class="bio">Welcome! My name is Cristian Franco and I'm a recent new grad from UC Riverside. I majored in Computer Engineering and am interested in working on both front ends and back ends.</p>
 			<p class="bio">I learned Java through a summer program with Thrive Scholars in high school. From then on, I learned the core concepts of Computer Science in C++ at UC Riverside. I learned Python on my own time and used it in several projects. I've done projects in embedded systems for school and for fun.</p>
 		</div><!--
@@ -154,26 +154,28 @@
 
 	--><div class="tanSection">
 			<h2><span id="contact"></span>CONTACT</h2>
-			<div class="grid-container">
-				<div class="grid-item">
+			<div class="contactGrid">
+				<div class="contactGridItem">
 					<div id="mapid"></div>
 				</div>
-				<div class="grid-item">
-					<div class="tempGrid">
-						<div class="tempGridItem">
-							<a href="https://www.linkedin.com/in/c-franco/">LinkedIn</a> 
+				<div class="contactGridItem">
+					<div class="linksGrid">
+						<div class="linksGridItem wholeRowItem" id="email">
+							<p id="emailText">cristianfranco.cf@gmail.com</p>
+							<!-- <a href="mailto:cristianfranco.cf@gmail.com">Email</a> -->
 						</div>
 
-						<div class="tempGridItem">
+						<div class="linksGridItem">
+							<a href="https://www.linkedin.com/in/c-franco/"><img src="img/LI-In-Bug.png" alt="LinkedIn Link" id="linkedinLink"></a>
+<!-- 							<a href="https://www.linkedin.com/in/c-franco/">LinkedIn</a>  -->
+						</div>
+
+						<div class="linksGridItem">
+							<a href="https://www.github.com/cristian-franco/"><img src="img/GitHub-Mark-64px.png" alt="GitHub Link" id="githubLink"></a>
+						</div>
+
+						<div class="linksGridItem" id="resumeLink">
 							<a href="img/cristianFrancoResume.pdf">Resume</a>
-						</div>
-
-						<div class="tempGridItem">
-							<a href="mailto:cristianfranco.cf@gmail.com">Email</a>
-						</div>
-
-						<div class="tempGridItem">
-							<a href="https://www.github.com/cristian-franco/">GitHub</a>
 						</div>
 
 					</div>
