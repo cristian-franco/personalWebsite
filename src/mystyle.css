@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #F4F1BB;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  color: dimgray;
+}
+
+li {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  position: relative;
+  z-index: 0;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+h3 {
+  font-size: 23px;
+  text-align: center;
+
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+/* https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header/11842865#11842865    */
+/*h2{ position:relative; }*/
+h1 span {
+  position: absolute;
+  top:-57px;
+}
+
+h2 span {
+  position: absolute;
+  top: -57px;
+}
+
+.Header {
+  background-color: var(--mint);
+  color: black;
+  text-align: center;
+  padding: 25px 60px 25px 60px;
+  margin-top: 57px;
+}
+
+.bio {
+  font-size: 20px;
+  margin-right: 500px;
+}
+
+.gridSection {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 50px;
+}
+
+.gridItem {
+  text-align: left;
+}
+
+.gridText {
+  font-size: 20px;
+
+}
+
+.langGroup {
+  margin-bottom: 25px;
+}
+
+.langTitle {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: -15px;
+  color: black;
+}
+
+.langText {
+  font-size: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 10px;
+  margin-right: 150px;
+  grid-row-gap: 50px;
+  grid-column-gap: 20px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+}
+
+.contactGridItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linksGrid {
+  display: grid;
+  /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  text-align: center;
+  grid-gap: 60px 60px;
+}
+
+.wholeRowItem {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+/* || navBar styles */
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; /*https://forum.freecodecamp.org/t/text-is-seen-through-fixed-navbar-when-its-position-is-relative/256179*/
+}
+
+.navBar li {
+  float: left;
+}
+
+.navBar a {
+  display: block;
+  padding: 8px;
+}
+
+.navBar li:last-child {
+  border-right: none;
+}
+
+.navBar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar li a:hover {
+  text-decoration: underline overline black;
+}
+
+#firstSection {
+  margin-top: 100px;
+}
+
+#name {
+  text-align: left;
+  font-size: 40px;
+}
+
+#role {
+  font-size: 20px;
+}
+
+#headshot {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#githubLink {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#linkedinLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;  
+}
+
+#emailText {
+  font-size: 25px;
+}
+
+#resumeLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
