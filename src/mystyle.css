@@ -13,17 +13,13 @@ html, body {
 }
 
 a {
-  font-size: 25px;
   text-decoration: none;
   color: black;
 }
 
 p {
+  font-size: 25px;
   color: dimgray;
-}
-
-li {
-  font-size: 20px;
 }
 
 h1 {
@@ -183,9 +179,14 @@ h2 span {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 25px;
 }
 
 .navBar li a:hover {
+  text-decoration: underline overline black;
+}
+
+p a:hover {
   text-decoration: underline overline black;
 }
 
@@ -214,23 +215,4 @@ h2 span {
 #githubLink {
   margin-left: auto;
   margin-right: auto;
-}
-
-#linkedinLink {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70px;  
-}
-
-#emailText {
-  font-size: 25px;
-}
-
-#resumeLink {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
