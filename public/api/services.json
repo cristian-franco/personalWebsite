@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Data Analysis",
+        "text": "I offer comprehensive data analysis solutions tailored to your specific needs, utilizing advanced analytical techniques and tools to derive valuable insights from your data.",
+        "icon": "/icons/quill-pen-line.svg"
+    },
+    {
+        "id": 2,
+        "title": "Data Engineering",
+        "text": "I design and implement robust data pipelines that efficiently collect, transform, and store large volumes of data from various sources, ensuring its accuracy, reliability, and accessibility for analysis.",
+        "icon": "/icons/code-s-slash-line.svg"
+    },
+    {
+        "id": 3,
+        "title": "Software Engineering",
+        "text": "I leverage my strong programming skills and deep understanding of software development principles to design, develop, and deploy scalable and efficient software solutions. ",
+        "icon": "/icons/smartphone-line.svg"
+    }
+]
