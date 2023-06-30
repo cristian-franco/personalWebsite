@@ -106,7 +106,7 @@ const Homepage2 = ({ posts }) => {
   );
 };
 
-export default Homepage2;
+export default index;
 
 export function getStaticProps() {
   const { posts } = getPostsByPage();
