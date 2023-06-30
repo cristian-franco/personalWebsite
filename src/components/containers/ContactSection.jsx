@@ -24,7 +24,7 @@ const ContactSection = () => {
         <div className="contact-information">
           <h4>Contact Information</h4>
           <p>
-          I'm currently looking for a new role as a Data Analyst! Feel free to reach out! I would love to
+          I am currently looking for a new role as a Data Analyst! Feel free to reach out! I would love to
           discuss about new opportunities.
           </p>
           <span className="inline-block h-1 w-20 rounded-full bg-primary bg-opacity-20"></span>
