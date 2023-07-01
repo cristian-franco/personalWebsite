@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Data Analysis",
+        "percentage": 90
+    },
+    {
+        "id": 2,
+        "title": "Data Engineering",
+        "percentage": 80
+    },
+    {
+        "id": 3,
+        "title": "Dashboard Design",
+        "percentage": 90
+    }
+]

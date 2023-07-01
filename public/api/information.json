@@ -1,0 +1,29 @@
+{
+    "firstName": "Cristian",
+    "lastName": "Franco",
+    "fullName": "Cristian Franco",
+    "thumbImage": "/images/formal-image.png",
+    "largeImage": "/images/about-image.jpg",
+    "bio": "I am a Data Analyst / Data Engineer. I provide business insights and develop data pipelines.",
+    "age": 24,
+    "nationality": "Mexican/American",
+    "languages": [
+        "English",
+        "Spanish"
+    ],
+    "address": "Los Angeles, CA, United States",
+    "freelance": "Available",
+    "socialAddress": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com",
+        "github": "https://github.com/cristian-franco",
+        "linkedin": "https://www.linkedin.com/in/c-franco/",
+        "dribbble": "https://cristianfranco.substack.com/"
+    },
+    "phoneNumbers": [
+        "+1 818-337-9493"
+    ],
+    "emailAddress": [
+        "cristianfranco.cf@gmail.com"
+    ]
+}
