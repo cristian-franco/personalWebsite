@@ -1,10 +1,10 @@
 {
-    "name": "bieber",
+    "name": "personalWebsite",
     "description": "Bieber - React Personal Portfolio Template",
     "author": "NuclearThemes",
     "version": "1.0.0",
     "main": "index.js",
-    "homepage": ".",
+    "homepage": "./",
     "private": true,
     "scripts": {
         "dev": "next dev",
@@ -56,5 +56,5 @@
         "tailwindcss-nested-groups": "^1.2.4"
     },
     "license": "MIT",
-    "proxy": "http://localhost:3200/api"
+    "proxy": "http://localhost:3000/api"
 }
