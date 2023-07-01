@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/_next/static/*"
+  to = "/static/:splat"
+  status = 301
+  force = true
