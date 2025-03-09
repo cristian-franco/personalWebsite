@@ -11,6 +11,12 @@ body {
 p {
     color: white;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400; /* Regular weight */
@@ -25,6 +31,10 @@ h1 {
 .navigation-bar {
     display: flex;
     justify-content: space-between;
+}
+
+.home-button {
+    margin-left: 1em;
 }
 
 .section-links {
@@ -51,12 +61,17 @@ h1 {
 }
 
 .front-page-subtext {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+    min-height: 100vh;
     justify-content: center;
     text-align: center;
     align-items: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    margin: auto;
+    width: 100%;
 }
 
 .grid-container {
@@ -67,6 +82,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-self: center;
 }
 
 .front-page-picture {
