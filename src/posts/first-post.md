@@ -1,25 +1,30 @@
 ---
-title: "Getting Started with SvelteKit"
-date: "2024-02-05"
-description: "My journey learning SvelteKit and why I chose it for my personal blog"
-tags: ["svelte", "web dev", "tutorial"]
+title: "Allow me to re-introduce myself, my name is..."
+date: "2026-02-06"
+description: ""
+tags: ["general"]
 ---
 
-# Getting Started with SvelteKit
+# Cristian
 
-This is my first blog post! I decided to build my personal site using SvelteKit because it's modern, fast, and enjoyable to work with.
+Hi everyone! Cristian here! I've decided to start blogging and sharing my work and projects to a larger audience (1 is still larger than 0!).
 
-## Why SvelteKit?
+## OK, but Who Are You?
+My name is Cristian Franco, I'm a software engineer (kind of) in the food tech space, and I'm from Los Angeles!
 
-- **Simple to learn**: The syntax feels natural if you know HTML, CSS, and JavaScript
-- **Great performance**: Compiles to vanilla JS, no heavy runtime
-- **File-based routing**: Easy to organize pages
+My recent interests include:
+- **Homelabbing**: Set up a Raspberry Pi with a few useful services!
+- **Backend**: Recently been working on the backend at work!
+- **Open Source**: Going to SCALE 23x this year!
 
-## Next Steps
+## Non-Tech Related Interests
+Tech can be all encompassing, so I try to stay up to date on my non-tech hobbies and interests! I'll try to write about these in my blog as well, including but not limited to:
+- **Rap and RnB**
+- **Horror Movies**
+- **Video Games**
 
-I'm planning to write more about:
-- Setting up deployment on Netlify
-- Adding markdown support
-- Styling tips
+## Why should I care?
 
-Stay tuned!
+You don't have to! That's the best part! This is just a little window into my projects and personal life, and if any of it reaches anyone, I consider that as a win!
+
+If anyone wants to connect, feel free to email me at cristianfranco.cf@gmail.com.
