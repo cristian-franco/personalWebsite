@@ -1,10 +1,29 @@
 <script>
     export let data;
+    import "../../main.css";
 </script>
 
 <svelte:head>
     <title>{data.metadata.title}</title>
 </svelte:head>
+
+<div class="navigation-bar">
+    <div class="home-button">
+        <p>
+            <a href="/">Cristian Franco</a>
+        </p>
+    </div>
+    <div class="section-links grid-container">
+        <div class="grid-item"><p><a href="/blog">Blog</a></p></div>
+        <!-- <div class="grid-item"><p>Resume</p></div>
+    <div class="grid-item"><p>Projects</p></div> -->
+        <div class="grid-item">
+            <p>
+                <a href="https://github.com/cristian-franco"> GitHub </a>
+            </p>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <article>
@@ -48,7 +67,7 @@
     h1 {
         font-size: 2.5rem;
         margin-bottom: 0.5rem;
-        color: #1a1a1a;
+        /*color: #1a1a1a;*/
     }
 
     time {
@@ -73,7 +92,7 @@
 
     .content {
         line-height: 1.8;
-        color: #333;
+        color: white;
     }
 
     footer {
@@ -83,7 +102,7 @@
     }
 
     footer a {
-        color: #2563eb;
+        /*color: #2563eb;*/
         text-decoration: none;
     }
 

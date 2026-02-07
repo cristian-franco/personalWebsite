@@ -15,7 +15,7 @@
 <div class="navigation-bar">
     <div class="home-button">
         <p>
-            <a href="https://cfranco.dev/">Cristian Franco</a>
+            <a href="/">Cristian Franco</a>
         </p>
     </div>
     <div class="section-links grid-container">
@@ -43,9 +43,9 @@
     </div>
     <div class="grid-item">
         <p>
-            I am a Software Engineer currently working at CloudKitchens in the
-            food tech space.<br />
-            Open to Data Engineer and Software Engineer opportunities!
+            I am currently a Software Engineer currently working at
+            CloudKitchens.<br />
+            Always open to Data Engineer and Software Engineer opportunities!
         </p>
     </div>
     <div class="grid-item">
@@ -54,7 +54,7 @@
     <div class="grid-item">
         <p>
             In my free time, I love to read, workout, and try new foods!<br />
-            Feel free to drop any recommendations<br />
+            Feel free to drop any food recommendations<br />
             for Los Angeles in my inbox!
         </p>
     </div>

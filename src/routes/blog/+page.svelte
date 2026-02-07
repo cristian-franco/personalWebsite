@@ -1,17 +1,34 @@
 <script>
     export let data;
+    import "../main.css";
 </script>
 
 <svelte:head>
     <title>My Blog</title>
 </svelte:head>
 
+<div class="navigation-bar">
+    <div class="home-button">
+        <p>
+            <a href="/">Cristian Franco</a>
+        </p>
+    </div>
+    <div class="section-links grid-container">
+        <div class="grid-item"><p><a href="/blog">Blog</a></p></div>
+        <!-- <div class="grid-item"><p>Resume</p></div>
+    <div class="grid-item"><p>Projects</p></div> -->
+        <div class="grid-item">
+            <p>
+                <a href="https://github.com/cristian-franco"> GitHub </a>
+            </p>
+        </div>
+    </div>
+</div>
+
 <div class="container">
     <header>
-        <h1>My Blog</h1>
-        <p class="subtitle">
-            Thoughts on software engineering and web development
-        </p>
+        <h1>Cristian's Blog</h1>
+        <p class="subtitle">Data, Open Source, Engineering, etc</p>
     </header>
 
     <main>
@@ -57,11 +74,11 @@
     h1 {
         font-size: 2.5rem;
         margin-bottom: 0.5rem;
-        color: #1a1a1a;
+        /*color: #1a1a1a;*/
     }
 
     .subtitle {
-        color: #666;
+        /*color: #666;*/
         font-size: 1.1rem;
     }
 
@@ -84,13 +101,13 @@
 
     .post-card a {
         text-decoration: none;
-        color: inherit;
+        /*color: inherit;*/
     }
 
     .post-card h2 {
         font-size: 1.5rem;
         margin-bottom: 0.5rem;
-        color: #2563eb;
+        /*color: #2563eb;*/
     }
 
     .post-card h2:hover {
