@@ -33,7 +33,7 @@
 <div class="front-page-subtext grid-container">
     <div class="grid-item">
         <div class="front-page-picture">
-            <img src="/Headshot.png" alt="Picture of Cristian Franco" />
+            <img src="/Headshot.jpg" alt="Picture of Cristian Franco" />
         </div>
     </div>
     <div class="grid-item">
@@ -43,8 +43,7 @@
     </div>
     <div class="grid-item">
         <p>
-            I am currently a Software Engineer currently working at
-            CloudKitchens.<br />
+            I am currently a Software Engineer currently working at ATOMS.<br />
             Always open to Data Engineer and Software Engineer opportunities!
         </p>
     </div>
